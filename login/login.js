@@ -32,7 +32,7 @@ async function buscador(e) {
         usuarios.forEach(element => {
             if (element.usuario === evaluo.usuario && element.contraseña === evaluo.contraseña) {
                 buscar.addEventListener('click', ()=>{
-                    window.location.replace ("/Home/home.html")
+                    window.location.replace ("../index.html")
                 })
             }else if(element.usuario === evaluo.usuario && element.contraseña != evaluo.contraseña){
                 alert("contraseña incorrecta")
